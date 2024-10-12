@@ -48,7 +48,7 @@ class Paladin extends Character {
   int useUlta() {
     print("$name использует ультимативную способность!");
     armor += 10;
-    print("$name увеличивает  броню до $armor.");
+    print("$name увеличивает свою  броню до $armor.");
     return 0;
   }
 

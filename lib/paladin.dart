@@ -58,7 +58,7 @@ class Paladin extends Character {
     if (a >= 0) {
       hp -= a;
     }
-    print('Получаемый урон снижен из за щита противник наносит: ${damage-armor < 0 ? 0 : damage-armor} ед. урана');
+    print('Получаемый урон снижен из за щита противник наносит: ${damage-armor < 0 ? 0 : damage-armor} ед. урона');
   }
 
   int shieldBash() {
